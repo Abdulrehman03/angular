@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component'
 import { ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
+import { DrawerComponent } from './dashboard/drawer/drawer.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { RegisterComponent } from './register/register.component';
     ExpansionPanelComponent,
     NavbarComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    DrawerComponent
   ],
   entryComponents:[DialogExampleComponent],
   imports: [
