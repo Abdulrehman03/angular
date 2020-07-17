@@ -1,0 +1,70 @@
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA="
+      crossorigin="anonymous"
+    /> 
+    
+<div   class="container">
+  <form [formGroup]="registerForm" (submit)="onSubmit($event)" >
+    <div class="btn btn-ghost">
+      <i class="fab fa-google"></i>
+      Log in with Google
+    </div>
+    <small>or</small>
+    <div class="form-control">
+      <label for="name">Name</label>
+      <input type="name" id="name" formControlName="name" placeholder="Enter your name" />
+    </div>
+    <div class="form-control">
+      <label for="email">Email</label>
+      <input type="email" id="email" formControlName="email" placeholder="Enter your email" />
+    </div>
+    <div class="form-control">
+      <label for="email">Email</label>
+      <input type="email" id="email" formControlName="email" placeholder="Enter your email" />
+    </div>
+    <div class="form-control">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        formControlName="password"
+        id="password"
+        placeholder="Enter your password"
+      />
+    </div>
+    <div class="checkbox-container">
+      <input type="checkbox" id="remember" />
+      <label for="remember">Remember me</label>
+      <a href="#">Forget Password</a>
+    </div>
+    <button class="btn" type="submit">Register</button>
+    <small>Don't have account ? <a href="#">Sign up</a></small>
+  </form>
+  <div class="features">
+    <div class="feature">
+      <i class="fas fa-code"></i>
+      <h3>Development</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+        doloremque totam, nemo nobis nam quam.
+      </p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-gift"></i>
+      <h3>Features</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, neque
+        quibusdam! Nemo debitis vel, dolorum repellat
+      </p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-edit"></i>
+      <h3>Updates</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+        itaque ab voluptatibus maxime architecto quas mollitia?
+      </p>
+    </div>
+  </div>
+</div>

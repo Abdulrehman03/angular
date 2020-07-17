@@ -1,0 +1,18 @@
+
+<div style="height: 200px;border-radius: 50px;width: 300px;width: fit-content;">
+
+    <img [src]="url" height="200" style="border-radius: 50px"> <br />
+
+</div>
+
+<input class="ng-hide" id="input-file-id" multiple type="file" (change)="onSelectFile($event)" style="display: none;">
+<div style="display: flex;">
+    <div style="text-align: left;display: flex;">
+        <button mat-button color="warn" (click)="onClick()">Select File</button>
+    </div>
+    <div style="text-align: right;">
+        <button mat-button mat-dialog-close color="primary">
+            <mat-icon>file_upload</mat-icon>Upload
+        </button>
+    </div>
+</div>
