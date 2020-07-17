@@ -11,7 +11,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component'
 import { ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
-import { DrawerComponent } from './dashboard/drawer/drawer.component';
+import { DrawerComponent } from './Dashboard/drawer/drawer.component';
+import { LandingComponent } from './landing/landing.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { DrawerComponent } from './dashboard/drawer/drawer.component';
     NavbarComponent,
     LoginComponent,
     RegisterComponent,
-    DrawerComponent
+    DrawerComponent,
+    LandingComponent
   ],
   entryComponents:[DialogExampleComponent],
   imports: [

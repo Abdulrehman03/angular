@@ -1,0 +1,20 @@
+.imgDiv {
+  background-image: url(./img.jpg);
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  height: 94.1%;
+}
+.headerdiv {
+  text-align: center;
+  color: white;
+}
+.headerdiv > h1 {
+  padding: 5rem;
+  font-size: 90px;
+
+}
+.headerdiv>p{
+  font-size: 30px;
+
+}
